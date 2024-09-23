@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.sectionContact {
+    background-color: #444;
+    color: white;
+    padding: 10px 0;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.contact a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.sectionSearch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.sectionSearch>div {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.logo img {
+    height: 200px;
+}
+
+.searcher {
+    width: 800px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+button img {
+    height: 35px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 0;
+}
+
+.sectionProductos {
+    background-color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.guitarButton {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.guitarButton:hover {
+    background-color: #555;
+}
+
+.sobreNosotros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.sobreNosotros-container {
+    width: 100%;
+}
+
+
+.carrusel {
+    flex: 1;
+}
+
+.carrusel img {
+    width: 100%;
+    height: auto;
+}
+
+.texto {
+    flex: 1;
+    padding: 20px;
+}
+
+
+
+
