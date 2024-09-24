@@ -38,6 +38,12 @@ header {
     background-color: white;
 }
 
+.sectionSearch {
+    background-image: url(img/abstract-concrete-floor-white-wall-texture-rough-background-white-paper-texture-background-old-cement-grunge-background-with-white-empty-modern-distressed-vintage-grunge-texture-vector.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 .sectionSearch>div {
     display: flex;
     align-items: center;
@@ -64,7 +70,7 @@ button {
 }
 
 button img {
-    height: 35px;
+    height: 45px;
 }
 
 hr {
@@ -95,32 +101,44 @@ hr {
     background-color: #555;
 }
 
-.sobreNosotros {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+/* Estilos para el grid de productos */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
     padding: 20px;
 }
 
-.sobreNosotros-container {
-    width: 100%;
-}
-
-
-.carrusel {
-    flex: 1;
-}
-
-.carrusel img {
-    width: 100%;
-    height: auto;
-}
-
-.texto {
-    flex: 1;
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;               /* Activar flexbox */
+    flex-direction: column;      /* Alinear los elementos en columna */
+    align-items: center;         /* Centrar horizontalmente */
+    text-align: center;          /* Centrar el texto */
 }
 
+.card img {
+    width: auto;                /* Ancho automático */
+    max-width: 100%;           /* Asegurar que no exceda el ancho del contenedor */
+    height: auto;              /* Mantener proporción */
+    border-radius: 8px;
+}
 
+.card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
 
+.card p {
+    font-size: 1rem;
+    color: #555;
+}
 
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
