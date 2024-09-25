@@ -109,6 +109,41 @@ hr {
     padding: 20px;
 }
 
+
+.sobre-nosotros .lema, .sobre-nosotros .texto {
+    display: flex;                /* Activar Flexbox */
+    align-items: center;          /* Alinear elementos verticalmente al centro */
+    justify-content: space-between; /* Espaciar los elementos entre sí */
+    gap: 20px;                    /* Añadir espacio entre la imagen y el texto */
+    margin-bottom: 20px;  
+    padding-top: 40px;  
+    padding-left: 50px;  
+    padding-right: 50px;  
+    text-wrap: balance;
+
+}
+
+.sobre-nosotros .lema img{
+  
+    width: 900px;                 /* Definir un ancho específico para las imágenes */
+    height: auto;                 /* Mantener las proporciones de la imagen */
+    border-radius: 10px;          /* Opcional: bordes redondeados para las imágenes */
+}
+.sobre-nosotros .texto img {
+  
+    width: 600px;                 /* Definir un ancho específico para las imágenes */
+    height: auto;                 /* Mantener las proporciones de la imagen */
+    border-radius: 10px;          /* Opcional: bordes redondeados para las imágenes */
+}
+
+.sobre-nosotros .lema div, .sobre-nosotros .texto div {
+    flex: 1;                      /* Hacer que el texto tome el espacio restante */
+}
+
+h3,p,li{
+    font-size:1.2em;
+}
+
 .card {
     background-color: white;
     border-radius: 8px;
