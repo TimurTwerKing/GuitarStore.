@@ -1,179 +1,205 @@
+/* ============================= */
+/* Estilos Generales             */
+/* ============================= */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #f4f4f4; 
 }
 
+/* ============================= */
+/* Estilos del Encabezado        */
+/* ============================= */
 header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
+    background-color: #333; 
+    color: white; 
+    padding: 10px 0; 
 }
 
+/* ============================= */
+/* Sección de Contacto           */
+/* ============================= */
 .sectionContact {
-    background-color: #444;
-    color: white;
-    padding: 10px 0;
+    background-color: #444; 
+    color: white; 
+    padding: 10px 0; 
 }
 
 .contact {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 20px; 
 }
 
 .contact a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
+    color: white; 
+    text-decoration: none; 
+    margin: 0 10px; 
 }
 
+/* ============================= */
+/* Sección de Búsqueda           */
+/* ============================= */
 .sectionSearch {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background-color: white;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px; 
+    background-color: white; 
+    background-image: url(img/abstract-concrete-floor-white-wall-texture-rough-background-white-paper-texture-background-old-cement-grunge-background-with-white-empty-modern-distressed-vintage-grunge-texture-vector.jpg); 
+    background-size: cover; 
+    background-position: center; 
 }
 
-.sectionSearch {
-    background-image: url(img/abstract-concrete-floor-white-wall-texture-rough-background-white-paper-texture-background-old-cement-grunge-background-with-white-empty-modern-distressed-vintage-grunge-texture-vector.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.sectionSearch>div {
-    display: flex;
-    align-items: center;
-    margin: 0 20px;
+.sectionSearch > div {
+    display: flex; 
+    align-items: center; 
+    margin: 0 20px; 
 }
 
 .logo img {
-    height: 200px;
+    height: 200px; 
 }
 
 .searcher {
-    width: 800px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin: 0 20px;
+    width: 800px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    margin: 0 20px; 
 }
 
 button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    margin: 0 10px;
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer; 
+    margin: 0 10px; 
 }
 
 button img {
-    height: 45px;
+    height: 45px; 
 }
 
+/* ============================= */
+/* Separador Horizontal           */
+/* ============================= */
 hr {
-    border: 0;
-    height: 1px;
-    background: #ccc;
-    margin: 0;
+    border: 0; 
+    height: 1px; 
+    background: #ccc; 
+    margin: 0; 
 }
 
+/* ============================= */
+/* Sección de Productos          */
+/* ============================= */
 .sectionProductos {
-    background-color: #333;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+    background-color: #333; 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px; 
 }
 
 .guitarButton {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    background-color: #333; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
 }
 
 .guitarButton:hover {
-    background-color: #555;
+    background-color: #555; 
 }
 
-/* Estilos para el grid de productos */
+/* ============================= */
+/* Estilos de Cuadrícula         */
+/* ============================= */
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px; 
+    padding: 20px; 
 }
 
-
-.sobre-nosotros .lema, .sobre-nosotros .texto {
-    display: flex;                /* Activar Flexbox */
-    align-items: center;          /* Alinear elementos verticalmente al centro */
-    justify-content: space-between; /* Espaciar los elementos entre sí */
-    gap: 20px;                    /* Añadir espacio entre la imagen y el texto */
-    margin-bottom: 20px;  
-    padding-top: 40px;  
-    padding-left: 50px;  
-    padding-right: 50px;  
-    text-wrap: balance;
-
+/* ============================= */
+/* Sección "Sobre Nosotros"      */
+/* ============================= */
+.sobre-nosotros .lema,
+.sobre-nosotros .texto {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 20px; 
+    margin-bottom: 20px; 
+    padding-top: 40px; 
+    padding-left: 50px; 
+    padding-right: 50px; 
+    text-wrap: balance; 
 }
 
-.sobre-nosotros .lema img{
-  
-    width: 900px;                 /* Definir un ancho específico para las imágenes */
-    height: auto;                 /* Mantener las proporciones de la imagen */
-    border-radius: 10px;          /* Opcional: bordes redondeados para las imágenes */
-}
+.sobre-nosotros .lema img,
 .sobre-nosotros .texto img {
-  
-    width: 600px;                 /* Definir un ancho específico para las imágenes */
-    height: auto;                 /* Mantener las proporciones de la imagen */
-    border-radius: 10px;          /* Opcional: bordes redondeados para las imágenes */
+    width: 900px; 
+    height: auto; 
+    border-radius: 10px; 
 }
 
-.sobre-nosotros .lema div, .sobre-nosotros .texto div {
-    flex: 1;                      /* Hacer que el texto tome el espacio restante */
+.sobre-nosotros .lema div,
+.sobre-nosotros .texto div {
+    flex: 1; 
 }
 
-h3,p,li{
-    font-size:1.2em;
-}
-
+/* ============================= */
+/* Estilos para Tarjetas         */
+/* ============================= */
 .card {
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    transition: transform 0.3s, box-shadow 0.3s;
-    display: flex;               /* Activar flexbox */
-    flex-direction: column;      /* Alinear los elementos en columna */
-    align-items: center;         /* Centrar horizontalmente */
-    text-align: center;          /* Centrar el texto */
+    background-color: white; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 2px; 
+    transition: transform 0.3s, box-shadow 0.3s; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
 }
 
-.card img {
-    width: auto;                /* Ancho automático */
-    max-width: 100%;           /* Asegurar que no exceda el ancho del contenedor */
-    height: auto;              /* Mantener proporción */
-    border-radius: 8px;
+.card h1 {
+    font-size: 3em; 
 }
 
 .card h3 {
-    font-size: 1.2rem;
-    margin: 10px 0;
+    font-size: 1.2rem; 
+    margin: 10px 0; 
 }
 
 .card p {
-    font-size: 1rem;
-    color: #555;
+    font-size: 1rem; 
+    color: #555; 
+}
+
+.card img {
+    width: auto; 
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
 }
 
 .card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
+
+/* ============================= */
+/* Estilos para Listas           */
+/* ============================= */
+h3,
+p,
+li {
+    font-size: 1.2em; 
 }
