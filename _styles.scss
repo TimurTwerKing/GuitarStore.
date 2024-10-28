@@ -1,0 +1,17 @@
+// styles.scss
+
+@import "variables";
+@import "main";
+
+// Llamada a los mixins con variables importadas
+@include cardsPducts($desktop_size, $tablet_size, $phone_size);
+@include contactoHeader($black, $white);
+
+
+
+
+
+
+
+
+

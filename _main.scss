@@ -1,0 +1,45 @@
+// main.scss
+
+@import "variables";
+
+// Mixin para Cuadrícula de Cards
+@mixin cardsPducts($desktop_size, $tablet_size, $phone_size) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+
+    @media (max-width: $desktop_size) {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    @media (max-width: $tablet_size) {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+    @media (max-width: $phone_size) {
+      grid-template-columns: 1fr;
+      padding: 10px;
+    }
+  }
+}
+
+// Mixin para la Sección de Contacto en el Encabezado
+@mixin contactoHeader($black, $white) {
+  .sectionContact {
+    background-color: $black;
+    color: $white;
+    padding: 10px 0;
+  }
+  .contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    a {
+      color: $white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  }
+}

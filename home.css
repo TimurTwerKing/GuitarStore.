@@ -31,7 +31,7 @@ header {
 /* ============================= */
 /* Sección de Contacto           */
 /* ============================= */
-.sectionContact {
+/* .sectionContact {
   background-color: #333333;
   color: white;
   padding: 10px 0;
@@ -48,7 +48,7 @@ header {
   color: white;
   text-decoration: none;
   margin: 0 10px;
-}
+} */
 
 /* ============================= */
 /* Sección de Búsqueda           */
@@ -130,12 +130,12 @@ hr {
 /* ============================= */
 /* Estilos de Cuadrícula         */
 /* ============================= */
-.grid-container {
+/* .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   padding: 20px;
-}
+} */
 
 /* ============================= */
 /* Sección "Sobre Nosotros"      */
