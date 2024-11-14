@@ -31,7 +31,7 @@ header {
 /* ============================= */
 /* Sección de Contacto           */
 /* ============================= */
-/* .sectionContact {
+.sectionContact {
   background-color: #333333;
   color: white;
   padding: 10px 0;
@@ -48,7 +48,7 @@ header {
   color: white;
   text-decoration: none;
   margin: 0 10px;
-} */
+}
 
 /* ============================= */
 /* Sección de Búsqueda           */
@@ -64,7 +64,7 @@ header {
   background-position: center;
 }
 
-.sectionSearch > div {
+.sectionSearch>div {
   display: flex;
   align-items: center;
   margin: 0 20px;
@@ -113,6 +113,8 @@ hr {
   gap: 10px;
 }
 
+
+
 .guitarButton {
   background-color: #333;
   color: #fff;
@@ -130,12 +132,12 @@ hr {
 /* ============================= */
 /* Estilos de Cuadrícula         */
 /* ============================= */
-/* .grid-container {
+.grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   padding: 20px;
-} */
+}
 
 /* ============================= */
 /* Sección "Sobre Nosotros"      */
@@ -215,13 +217,13 @@ li {
   font-size: 1.2em;
 }
 
-/* #aside {
-    height: 60px;
-    width: 60px;
-    position: absolute;
-    top: calc(50% - 250px);
-    right: 7%;
-} */
+#aside {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: calc(50% - 250px);
+  right: 7%;
+}
 
 #aside model-viewer {
   margin-top: 100px;
