@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GuitarStore Responsive</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+  <!-- Header Section -->
+  <header class="bg-gray-800 text-white">
+    <!-- Contact Section -->
+    <section class="bg-gray-700 p-2">
+      <div class="flex justify-between items-center space-x-2">
+        <div class="flex space-x-2">
+          <span class="bg-gray-600 p-1 hover:bg-gray-500">GPS Icon</span>
+          <span class="bg-gray-600 p-1 hover:bg-gray-500">+34 658 440 125</span>
+        </div>
+        <div class="flex space-x-2">
+          <span class="bg-gray-600 p-1 hover:bg-gray-500">Sobre Nosotros</span>
+          <span class="bg-gray-600 p-1 hover:bg-gray-500">Contacto</span>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <!-- Logo and Search Section -->
+  <section class="bg-white p-4 flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:justify-between sm:items-center">
+    <div class="bg-gray-200 p-8 mx-auto sm:mx-0 sm:ml-0">Logo</div>
+    <input type="text" placeholder="Buscar..." class="border p-2 rounded w-full sm:w-1/2 mx-4" />
+    <div class="flex space-x-4 justify-center sm:justify-end">
+      <span class="bg-gray-200 p-4">User</span>
+      <span class="bg-gray-200 p-4">Favorites</span>
+      <span class="bg-gray-200 p-4">Cart</span>
+    </div>
+  </section>
+
+  <!-- Product Navigation Bar -->
+  <section class="bg-gray-700 text-white p-2 mb-2 flex justify-between">
+    <button class="bg-gray-600 p-2 rounded hover:bg-gray-500">ESP</button>
+    <button class="bg-gray-600 p-2 rounded hover:bg-gray-500">Jackson</button>
+    <button class="bg-gray-600 p-2 rounded hover:bg-gray-500">Ibanez</button>
+    <button class="bg-gray-600 p-2 rounded hover:bg-gray-500">Schecter</button>
+    <button class="bg-gray-600 p-2 rounded hover:bg-gray-500">BC Rich</button>
+    <button class="bg-gray-600 p-2 rounded hover:bg-gray-500">Dean</button>
+    <button class="bg-gray-600 p-2 rounded hover:bg-gray-500">Caparison</button>
+    <button class="bg-gray-600 p-2 rounded hover:bg-gray-500">Charvel</button>
+    <button class="bg-gray-600 p-2 rounded hover:bg-gray-500">Kiesel</button>
+    <button class="bg-gray-600 p-2 rounded hover:bg-gray-500">Solar Guitars</button>
+    <button class="bg-gray-600 p-2 rounded hover:bg-gray-500">Mayones</button>
+    <button class="bg-gray-600 p-2 rounded hover:bg-gray-500">Fender</button>
+    <button class="bg-gray-600 p-2 rounded hover:bg-gray-500">Gibson</button>
+    <button class="bg-gray-600 p-2 rounded hover:bg-gray-500">PRS</button>
+    <button class="bg-gray-600 p-2 rounded hover:bg-gray-500">Gretsch</button>
+    <button class="bg-gray-600 p-2 rounded hover:bg-gray-500">Suhr</button>
+    <button class="bg-gray-600 p-2 rounded hover:bg-gray-500">Dunable</button>
+    <!-- Additional guitar brand buttons would go here -->
+  </section>
+
+  <!-- Main Product Detail Section -->
+  <main class="p-4 grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-5">
+    <!-- Product Image Section -->
+    <section class="col-span-1 sm:col-span-1 md:col-span-1 lg:col-span-3 space-y-4">
+      <h1 class="text-lg sm:text-xl font-semibold text-red-600 text-center sm:text-left">TITULO PRODUCTO</h1>
+      <div class="bg-gray-200 h-64 sm:h-80 md:h-96 w-full flex items-center justify-center">IMG PRODUCTO</div>
+      <div class="bg-gray-200 h-16 w-full flex items-center justify-center">CARUSEL IMG</div>
+    </section>
+
+    <!-- Product Info Section -->
+    <section class="col-span-1 sm:col-span-1 md:col-span-1 lg:col-span-2 space-y-4 mt-10 sm:mt-10 md:mt-20">
+      <div class="bg-gray-200 p-4 text-center w-full">Variante Color</div>
+      <div class="bg-gray-200 p-4 text-center w-full">PRECIO</div>
+      <div class="bg-gray-200 p-4 text-center w-full">DISPONIBILIDAD</div>
+
+      <!-- Quantity Selector and Add to Cart -->
+      <div class="flex flex-row md:flex-row items-center space-x-4 w-full">
+        <input type="number" value="1" class="border p-2 rounded w-1/4 md:w-16 text-center" />
+        <button class="bg-gray-200 p-4 flex-1 text-center w-full md:w-auto">A LA CESTA</button>
+      </div>
+
+      <!-- Action Buttons (Favorites, Compare, URL) -->
+      <div class="flex flex-row md:flex-row justify-between space-x-4 w-full">
+        <button class="bg-gray-200 p-4 flex-1 text-center w-full md:w-auto">FAV</button>
+        <button class="bg-gray-200 p-4 flex-1 text-center w-full md:w-auto">COMP</button>
+        <button class="bg-gray-200 p-4 flex-1 text-center w-full md:w-auto">URL</button>
+      </div>
+    </section>
+
+    <!-- Product Detail Section centered on tablet and desktop -->
+    <section
+      class="col-span-1 sm:col-span-1 lg:col-span-5 bg-gray-200 p-4 h-96 w-full flex justify-center items-center mt-10 lg:mt-0">
+      <div>DETALLE PRODUCTO</div>
+    </section>
+  </main>
+
+</body>
+
+</html>
